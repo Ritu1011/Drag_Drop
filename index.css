@@ -1,0 +1,71 @@
+#main_container{
+    width: 450px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:100px 100px 100px ;
+    margin: auto;
+}
+#main_container >div{
+    border: 1px solid black;
+    justify-content: center;
+}
+.Box{
+margin: auto;
+width: 50%;
+text-align: center;
+border: 1px solid black;
+
+cursor: pointer;
+margin-top: 30px; 
+border: none;
+
+}
+#Box1{
+    padding: 10px 20px;
+    border-radius: 6px; 
+    background-color: rgb(149, 149, 200);
+}
+#Box2{
+    padding: 10px 20px;
+    border-radius: 6px; 
+    background-color: rgb(201, 201, 232);
+}
+#Box3{
+    padding: 10px 20px;
+    border-radius: 6px; 
+    background-color: rgb(66, 102, 203);
+}
+#Box4{
+    padding: 10px 20px;
+    border-radius: 6px; 
+    background-color:rgb(88, 184, 88);
+}
+#Box5{
+    padding: 10px 20px;
+    border-radius: 6px; 
+    background-color: rgb(157, 217, 167);
+}
+#Box6{
+    padding: 10px 20px;
+    border-radius: 6px; 
+    background-color: rgb(249, 183, 90);
+}
+#Box7{
+    padding: 10px 20px;
+    border-radius: 6px; 
+    background-color: red;
+}
+#Box8{
+    padding: 10px 20px;
+    border-radius: 6px; 
+    background-color: rgb(244, 92, 36);
+}
+#Box9{
+    padding: 10px 20px;
+    border-radius: 6px; 
+    background-color: rgb(161, 183, 243);
+}
+
+.Box.over {
+   border: 3px dotted #666;
+  }
